@@ -18,12 +18,16 @@
 
 ## <a name="mvc"></a>Le MVC
 
-* Modèle - Vue - Contrôleur
+* Modèle - Vue - Contrôleur. En anglais : Model - View - Controller.
 * Cas d'utilisation : L'utilisateur demande une page d'article. Le contrôleur vérifie avec le modèle si l'article existe en BDD. Si oui, le contrôleur demande à la vue la page à afficher pour cet article. Sinon, le contrôleur demande à la vue la page de message d'erreur à afficher. La page d'article ou celle d'erreur est renvoyée à l'utilisateur.
+
+![Image Modèle - Vue - Contrôleur](https://upload.wikimedia.org/wikipedia/commons/6/63/ModeleMVC.png "Modèle - Vue - Contrôleur")
 
 Une vidéo vaut mieux que de longs discours :
 
 [![Architecture MVC (Modèle - Vue - Contrôleur)](https://img.youtube.com/vi/PuBjF8CRWWE/0.jpg)](https://www.youtube.com/watch?v=PuBjF8CRWWE)
+
+Je vous conseille également la lecture de l'[article Wikipedia](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur), en français.
 
 ## <a name="routes"></a>Les routes
 
