@@ -27,6 +27,8 @@ Une vidéo vaut mieux que de longs discours :
 
 [![Architecture MVC (Modèle - Vue - Contrôleur)](https://img.youtube.com/vi/PuBjF8CRWWE/0.jpg)](https://www.youtube.com/watch?v=PuBjF8CRWWE)
 
+(Source de l'image : Wikipedia)
+
 Je vous conseille également la lecture de l'[article Wikipedia](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur), en français.
 
 ## <a name="routes"></a>Les routes
@@ -41,6 +43,12 @@ Le rôle de ce fichier est de définir les différents chemins pour l'applicatio
 * C'est une sorte de tableur Excel géant.
 * Fichier ou ensemble de fichiers où l'on stocke des informations/données pour y accéder plus facilement et rapidement
 * Le principe est d'avoir des clés/identifiants pour identifier le contenu et le lier à d'autres contenus de la BDD.
+
+Comme je le disais, schématiquement une BDD se présente comme un tableau :
+
+**Clé** | **Valeur** | **Type**
+--- | --- | ---
+123456 | "Comme elle belle ma valeur" | String
 
 Encore une vidéo explicative :
 
