@@ -6,7 +6,7 @@
 2. Le MVC
 3. Les routes
 4. Les Bases de Données
-5. GET / POST
+5. [GET / POST] (#getpost)
 6. Le concept de migration
 7. Les relations entre les models des BDD
 8. Les fonctions du CRUD
@@ -35,7 +35,7 @@ config/routes.rb = fichier qui définit différents chemins pour app web rails, 
 
 [![Comprendre les bases de données](https://img.youtube.com/vi/tmMmEYknwek/0.jpg)](https://www.youtube.com/watch?v=tmMmEYknwek)
 
-## GET / POST
+## <a name="getpost"></a>GET / POST
 
 * get = on demande de recevoir une info au serveur. dans url
 * post = on envoie une info au serveur pour qu'il l'enregistre. dans body
