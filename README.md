@@ -24,7 +24,7 @@ dynamique = contenu personnalisé en fonction du user, contexte... données du c
 modele vue controleur
 user demande 1 page. controleur verifie avec modele si info existe en bdd. si oui demande à vue page à afficher pour cette info. sinon demande à vue message d'erreur à afficher. la page succès ou erreur et renvoyée au user.
 
-https://www.youtube.com/watch?v=PuBjF8CRWWE
+[https://www.youtube.com/watch?v=PuBjF8CRWWE]
 
 ## Les routes
 
