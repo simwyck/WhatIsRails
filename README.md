@@ -58,8 +58,8 @@ Encore une vidéo explicative :
 
 ## <a name="getpost"></a>GET / POST
 
-* GET = On demande de recevoir une info au serveur. dans url
-* POST = On envoie une info au serveur pour qu'il l'enregistre. dans body
+* GET = On demande de recevoir une info au serveur. Le GET se retrouvera directement comme argument dans l'URL.
+* POST = On envoie une info au serveur pour qu'il l'enregistre. Le POST sera défini dans le body de la page HTML.
 
 Vidéo qui reprend les différences fondamentales entre GET et POST :
 
