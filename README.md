@@ -2,32 +2,32 @@
 
 ## Table des Matières
 
-1. La différence entre un site statique et un site dynamique
-2. Le MVC
-3. Les routes
-4. Les Bases de Données
+1. [La différence entre un site statique et un site dynamique](#statdyn)
+2. [Le MVC](#mvc)
+3. [Les routes](#routes)
+4. [Les Bases de Données](#bdd)
 5. [GET / POST](#getpost)
-6. Le concept de migration
-7. Les relations entre les models des BDD
-8. Les fonctions du CRUD
+6. [Le concept de migration](#migr)
+7. [Les relations entre les models des BDD](#models)
+8. [Les fonctions du CRUD](#crud)
 
-## La différence entre un site statique et un site dynamique
+## <a name="statdyn"></a>La différence entre un site statique et un site dynamique
 
 * statique = mm contenu pr ts users
 * dynamique = contenu personnalisé en fonction du user, contexte... données du contenu proviennent de bdd
 
-## Le MVC
+## <a name="mvc"></a>Le MVC
 
 * modele vue controleur
 * user demande 1 page. controleur verifie avec modele si info existe en bdd. si oui demande à vue page à afficher pour cette info. sinon demande à vue message d'erreur à afficher. la page succès ou erreur et renvoyée au user.
 
 [![Architecture MVC (Modèle - Vue - Contrôleur)](https://img.youtube.com/vi/PuBjF8CRWWE/0.jpg)](https://www.youtube.com/watch?v=PuBjF8CRWWE)
 
-## Les routes
+## <a name="routes"></a>Les routes
 
 config/routes.rb = fichier qui définit différents chemins pour app web rails, cad où doit pointer chaque url
 
-## Les Bases de Données
+## <a name="bdd"></a>Les Bases de Données
 
 * sorte de tableur excel géant
 * fichier ou ensemble de fichiers ou on stocke des infos pour y accéder plus facilement et rapidement
@@ -44,15 +44,15 @@ config/routes.rb = fichier qui définit différents chemins pour app web rails, 
 
 (Vidéo en anglais avec sous-titres)
 
-## Le concept de migration
+## <a name="migr"></a>Le concept de migration
 
 MAJ bdd ?
 
-## Les relations entre les models des BDD
+## <a name="models"></a>Les relations entre les models des BDD
 
 ???
 
-## Les fonctions du CRUD
+## <a name="crud"></a>Les fonctions du CRUD
 
 * Create = créer élément
 * Read = lire l'élément
