@@ -52,6 +52,8 @@ Comme je le disais, schématiquement une BDD se présente comme un tableau :
 --- | --- | ---
 123456 | "Comme elle belle ma valeur" | String
 
+Ceci est bien sûr une vision simplifiée mais ça vous donne l'idée :)
+
 Encore une vidéo explicative :
 
 [![Comprendre les bases de données](https://img.youtube.com/vi/tmMmEYknwek/0.jpg)](https://www.youtube.com/watch?v=tmMmEYknwek)
@@ -96,8 +98,6 @@ Pour une bonne introduction aux bases de données relationnelles, nous vous cons
 
 ---
 
-[1]: https://fr.wikipedia.org/wiki/Mod%C3%A8le_relationnel
-
----
-
 Powered by Simwyck / Slack & GiHub: @simwyck
+
+[1]: https://fr.wikipedia.org/wiki/Mod%C3%A8le_relationnel
