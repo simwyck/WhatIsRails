@@ -71,7 +71,7 @@ Vidéo qui reprend les différences fondamentales entre GET et POST :
 
 Tout simplement, la migration intervient lorsqu'on modifie la structure de la BDD.
 
-Pour se faire, la commande utilisée dans Rails sera *db:migrate*. Auparavant, j'aurais modifié le fichier *schema.rb* dans le répertoire *db* et bien sûr sauvegardé ces modifications.
+Pour se faire, la commande utilisée dans Rails sera *db:migrate*. Auparavant, vous aurez modifié le fichier *schema.rb* dans le répertoire *db* et bien sûr sauvegardé ces modifications.
 
 Pour en savoir plus (et parce que vous aimez les vidéos), je vous conseille de visionner l'excellent tutoriel de notre ami de Graphikart :
 
@@ -79,7 +79,11 @@ Pour en savoir plus (et parce que vous aimez les vidéos), je vous conseille de 
 
 ## <a name="models"></a>Les relations entre les models des BDD
 
-???
+[Wikipedia][1] définit le modèle relationnel comme *"une manière de modéliser les relations existantes entre plusieurs informations, et de les ordonner entre elles. Cette modélisation qui repose sur des principes mathématiques mis en avant par E.F. Codd est souvent retranscrite physiquement (« implémentée ») dans une base de données."*
+
+Pour une bonne introduction aux bases de données relationnelles, nous vous conseillons la vidéo suivante de l'EPFL :
+
+[![Modèle relationnel des bases de données](https://img.youtube.com/vi/4etRfqKF1XE/0.jpg)](https://www.youtube.com/watch?v=4etRfqKF1XE)
 
 ## <a name="crud"></a>Les fonctions du CRUD
 
@@ -87,3 +91,13 @@ Pour en savoir plus (et parce que vous aimez les vidéos), je vous conseille de 
 * Read = Lire/Afficher un élément
 * Update = Mettre à jour un élément
 * Destroy = Supprimer un élément
+
+**Graphikart** détaille le fonctionnement de CRUD dans [une vidéo](https://www.grafikart.fr/formations/ruby-on-rails/crud).
+
+---
+
+[1]: https://fr.wikipedia.org/wiki/Mod%C3%A8le_relationnel
+
+---
+
+Powered by Simwyck / Slack & GiHub: @simwyck
