@@ -6,7 +6,7 @@
 2. Le MVC
 3. Les routes
 4. Les Bases de Données
-5. [GET / POST] (#getpost)
+5. [GET / POST](#getpost)
 6. Le concept de migration
 7. Les relations entre les models des BDD
 8. Les fonctions du CRUD
