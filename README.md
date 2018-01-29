@@ -24,7 +24,8 @@ dynamique = contenu personnalisé en fonction du user, contexte... données du c
 modele vue controleur
 user demande 1 page. controleur verifie avec modele si info existe en bdd. si oui demande à vue page à afficher pour cette info. sinon demande à vue message d'erreur à afficher. la page succès ou erreur et renvoyée au user.
 
-[https://www.youtube.com/watch?v=PuBjF8CRWWE]
+[![Architecture MVC (Modèle - Vue - Contrôleur)](https://img.youtube.com/vi/PuBjF8CRWWE/0.jpg)](https://www.youtube.com/watch?v=PuBjF8CRWWE)
+https://www.youtube.com/watch?v=PuBjF8CRWWE
 
 ## Les routes
 
@@ -36,6 +37,7 @@ sorte de tableur excel géant
 fichier ou ensemble de fichiers ou on stocke des infos pour y accéder plus facilement et rapidement
 principe est d'avoir des clés/identifiants pour identifier le contenu et le lier à d'autre contenu de la bdd
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 https://www.youtube.com/watch?v=tmMmEYknwek
 
 ## GET / POST
@@ -43,6 +45,7 @@ https://www.youtube.com/watch?v=tmMmEYknwek
 get = on demande de recevoir une info au serveur. dans url
 post = on envoie une info au serveur pour qu'il l'enregistre. dans body
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 https://www.youtube.com/watch?v=UObINRj2EGY
 
 ## Le concept de migration
