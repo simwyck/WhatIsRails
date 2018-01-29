@@ -11,6 +11,8 @@
 7. [Les relations entre les models des BDD](#models)
 8. [Les fonctions du CRUD](#crud)
 
+---
+
 ## <a name="statdyn"></a>La différence entre un site statique et un site dynamique
 
 * Site statique = On distribue un même contenu à tous les utilisateurs.
@@ -67,7 +69,13 @@ Vidéo qui reprend les différences fondamentales entre GET et POST :
 
 ## <a name="migr"></a>Le concept de migration
 
-MAJ bdd ?
+Tout simplement, la migration intervient lorsqu'on modifie la structure de la BDD.
+
+Pour se faire, la commande utilisée dans Rails sera *db:migrate*. Auparavant, j'aurais modifié le fichier *schema.rb* dans le répertoire *db* et bien sûr sauvegardé ces modifications.
+
+Pour en savoir plus (et parce que vous aimez les vidéos), je vous conseille de visionner l'excellent tutoriel de notre ami de Graphikart :
+
+[![Apprendre Ruby on Rails : Les Migrations](https://img.youtube.com/vi/LBtCqTeJvfg/0.jpg)](https://www.youtube.com/watch?v=LBtCqTeJvfg)
 
 ## <a name="models"></a>Les relations entre les models des BDD
 
