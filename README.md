@@ -13,32 +13,41 @@
 
 ## <a name="statdyn"></a>La différence entre un site statique et un site dynamique
 
-* statique = mm contenu pr ts users
-* dynamique = contenu personnalisé en fonction du user, contexte... données du contenu proviennent de bdd
+* Site statique = On distribue un même contenu à tous les utilisateurs.
+* Site dynamique = Le contenu est personnalisé en fonction de l'utilisateur, du contexte... La plupart du temps, les données de contenu proviendront de la [BDD](#bdd).
 
 ## <a name="mvc"></a>Le MVC
 
-* modele vue controleur
-* user demande 1 page. controleur verifie avec modele si info existe en bdd. si oui demande à vue page à afficher pour cette info. sinon demande à vue message d'erreur à afficher. la page succès ou erreur et renvoyée au user.
+* Modèle - Vue - Contrôleur
+* Cas d'utilisation : L'utilisateur demande une page d'article. Le contrôleur vérifie avec le modèle si l'article existe en BDD. Si oui, le contrôleur demande à la vue la page à afficher pour cet article. Sinon, le contrôleur demande à la vue la page de message d'erreur à afficher. La page d'article ou celle d'erreur est renvoyée à l'utilisateur.
+
+Une vidéo vaut mieux que de longs discours :
 
 [![Architecture MVC (Modèle - Vue - Contrôleur)](https://img.youtube.com/vi/PuBjF8CRWWE/0.jpg)](https://www.youtube.com/watch?v=PuBjF8CRWWE)
 
 ## <a name="routes"></a>Les routes
 
-config/routes.rb = fichier qui définit différents chemins pour app web rails, cad où doit pointer chaque url
+Dans un projet Rails, on trouvera le fichier *routes.rb* dans le répertoire *config*.
+
+Le rôle de ce fichier est de définir les différents chemins pour l'application web Rails, c'est-à-dire là où doit pointer chaque URL.
 
 ## <a name="bdd"></a>Les Bases de Données
 
-* sorte de tableur excel géant
-* fichier ou ensemble de fichiers ou on stocke des infos pour y accéder plus facilement et rapidement
-* principe est d'avoir des clés/identifiants pour identifier le contenu et le lier à d'autre contenu de la bdd
+* Ou BDD en abrégé, ou encore DB (anglais pour database).
+* C'est une sorte de tableur Excel géant.
+* Fichier ou ensemble de fichiers où l'on stocke des informations/données pour y accéder plus facilement et rapidement
+* Le principe est d'avoir des clés/identifiants pour identifier le contenu et le lier à d'autres contenus de la BDD.
+
+Encore une vidéo explicative :
 
 [![Comprendre les bases de données](https://img.youtube.com/vi/tmMmEYknwek/0.jpg)](https://www.youtube.com/watch?v=tmMmEYknwek)
 
 ## <a name="getpost"></a>GET / POST
 
-* get = on demande de recevoir une info au serveur. dans url
-* post = on envoie une info au serveur pour qu'il l'enregistre. dans body
+* GET = On demande de recevoir une info au serveur. dans url
+* POST = On envoie une info au serveur pour qu'il l'enregistre. dans body
+
+Vidéo qui reprend les différences fondamentales entre GET et POST :
 
 [![Differences Between Get and Post](https://img.youtube.com/vi/UObINRj2EGY/0.jpg)](https://www.youtube.com/watch?v=UObINRj2EGY)
 
@@ -54,7 +63,7 @@ MAJ bdd ?
 
 ## <a name="crud"></a>Les fonctions du CRUD
 
-* Create = créer élément
-* Read = lire l'élément
-* Update = mettre à jour l'élément
-* Destroy = suprimer l'élément
+* Create = Créer un élément
+* Read = Lire/Afficher un élément
+* Update = Mettre à jour un élément
+* Destroy = Supprimer un élément
